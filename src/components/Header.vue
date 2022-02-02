@@ -7,7 +7,7 @@
       elevation="6"
       elevate-on-scroll
     >
-    <v-toolbar-title>VuetifyApp</v-toolbar-title>
+    <v-toolbar-title>PhotoGallery</v-toolbar-title>
     <v-spacer></v-spacer>
 
     <v-list class="d-flex align-center">
@@ -43,5 +43,10 @@
 </script>
 
 <style scoped>
-
+  .v-toolbar__title {
+    font-size: 32px;
+    color: #4caf50;
+    font-weight: 700;
+    font-family: cursive;
+  }
 </style>
